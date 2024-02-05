@@ -3,11 +3,14 @@
     "",
     "\\TZPU-main",
     "\\TZPU-main\\4",
+    "\\TZPU-main\\4\\Client4",
+    "\\TZPU-main\\4\\Client4\\src",
+    "\\TZPU-main\\4\\Client4\\src\\app",
+    "\\TZPU-main\\4\\Server4",
     "\\TZPU-main\\4\\Server4\\src",
-    "\\TZPU-main\\DiscoveryService\\DiscoveryService",
-    "\\TZPU-main\\DiscoveryService\\DiscoveryService\\DiscoveryService",
-    "\\TZPU-main\\Notification\\Controllers"
+    "\\TZPU-main\\4\\Server4\\src\\Services",
+    "\\TZPU-main\\Notification",
+    "\\TZPU-main\\rest-json-quickstart"
   ],
-  "SelectedNode": "\\TZPU-main\\4\\Client4",
   "PreviewInSolutionExplorer": false
 }
