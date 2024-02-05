@@ -1,0 +1,51 @@
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.AssemblyInfoInputs.cache
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.AssemblyInfo.cs
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.csproj.CoreCompileInputs.cache
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\appsettings.Development.json
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\appsettings.json
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.exe
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.deps.json
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.runtimeconfig.json
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.dll
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.pdb
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets.build.json
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets.development.json
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets\msbuild.DiscoveryService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets\msbuild.build.DiscoveryService.props
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DiscoveryService.props
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DiscoveryService.props
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\scopedcss\bundle\DiscoveryService.styles.css
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.dll
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\refint\DiscoveryService.dll
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.pdb
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.genruntimeconfig.cache
+C:\Projects\IV\TZPU\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\ref\DiscoveryService.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\appsettings.Development.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\appsettings.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.exe
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.deps.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.runtimeconfig.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\bin\Debug\net8.0\DiscoveryService.pdb
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.AssemblyInfoInputs.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.AssemblyInfo.cs
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.csproj.CoreCompileInputs.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.MvcApplicationPartsAssemblyInfo.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.sourcelink.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets.build.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets.development.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets\msbuild.DiscoveryService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets\msbuild.build.DiscoveryService.props
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DiscoveryService.props
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DiscoveryService.props
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\scopedcss\bundle\DiscoveryService.styles.css
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\refint\DiscoveryService.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.pdb
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\DiscoveryService.genruntimeconfig.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\DiscoveryService\DiscoveryService\DiscoveryService\obj\Debug\net8.0\ref\DiscoveryService.dll

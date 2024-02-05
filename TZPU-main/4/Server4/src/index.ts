@@ -68,22 +68,33 @@ io.on("connection", (socket) => {
             mCas.ucionice = [];
             mCas.brstudenata = sData[0].brucenika;
 
-            let mojCas: SchElement = {
-              name: cas,
-              trajanje : sData[0].trajanje,
-              classrooms: ["Classrom 1", "Classrom 2","Classrom 3"],
-              t1: "t1",
-              t2: "t2",
-              odmor: "odmorr"
-            }
-            console.log(mojCas);
-            myResponsePetar.push(mojCas);
-            myResponse[respid].casovi.push(mCas);
-            fservice.getClassRoom(sData.brucenika, socket.id, cas);
+              fservice.getClassRoom(sData.brucenika, socket.id, cas).then((data) => {
+                  data.forEach((e: any) => {
+                      if (e.courseName === cas) {
+                          mCas.ucionice.push(e.typeOfClass);
+                      }
+                  })
+                  let mojCas: SchElement = {
+                      name: cas,
+                      trajanje: sData[0].trajanje,
+                      classrooms: mCas.ucionice,
+                      t1: "t1",
+                      t2: "t2",
+                      odmor: "odmorr"
+                  }
+                  myResponsePetar.push(mojCas);
+                  console.log(myResponsePetar);
+                  socket.emit("test", myResponsePetar);
+                  
+              });
+            
+            //console.log(mojCas);
+              myResponse[respid].casovi.push(mCas);
+              
           });
         });
-        console.log(myResponsePetar);
-        socket.emit("test", myResponsePetar);
+        //console.log("Ovde sam"+myResponsePetar);
+        //socket.emit("test", myResponsePetar);
       });
     }
   });

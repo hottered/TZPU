@@ -21,6 +21,7 @@ namespace Notification
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseUrls("http://localhost:7000");
                 });
     }
 }

@@ -24,7 +24,7 @@ export class FetchService {
   }
 
   async getClassRoom(numOfStudents: number, id: string, courseName: string) {
-      await fetch("http://localhost:5050/classroomController/sendRequest", {
+      let response = await fetch("http://localhost:5050/classroomController/sendRequest", {
       method: "POST",
       body: JSON.stringify({
         requestId: id,
@@ -33,8 +33,9 @@ export class FetchService {
         typeOfClass: "Ucionica",
       }),
       headers: { "Content-Type": "application/json" },
-    });
-
-    //console.log("PODACI: " + id + "  " + courseName);
+      });
+      const result = await response.json();
+      //console.log(result);
+      return result;
   }
 }

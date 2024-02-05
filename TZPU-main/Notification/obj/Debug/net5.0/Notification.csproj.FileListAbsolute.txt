@@ -29,3 +29,34 @@ D:\Notification\obj\Debug\net5.0\Notification.dll
 D:\Notification\obj\Debug\net5.0\ref\Notification.dll
 D:\Notification\obj\Debug\net5.0\Notification.pdb
 D:\Notification\obj\Debug\net5.0\Notification.genruntimeconfig.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\appsettings.Development.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\appsettings.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\global.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Notification.exe
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Notification.deps.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Notification.runtimeconfig.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Notification.runtimeconfig.dev.json
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Notification.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\ref\Notification.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Notification.pdb
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.csproj.AssemblyReference.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.AssemblyInfoInputs.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.AssemblyInfo.cs
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.csproj.CoreCompileInputs.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.MvcApplicationPartsAssemblyInfo.cs
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.MvcApplicationPartsAssemblyInfo.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\staticwebassets\Notification.StaticWebAssets.Manifest.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\staticwebassets\Notification.StaticWebAssets.xml
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\scopedcss\bundle\Notification.styles.css
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.RazorTargetAssemblyInfo.cache
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.csproj.CopyComplete
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\ref\Notification.dll
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.pdb
+D:\Faculty of Electronic Engineering\TZPU\Projekat\TZPU-main\Notification\obj\Debug\net5.0\Notification.genruntimeconfig.cache

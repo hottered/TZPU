@@ -29,12 +29,11 @@ import io.netty.util.internal.ThreadLocalRandom;
 @Consumes(MediaType.APPLICATION_JSON)
 public class Resources {
 
-    //private Set<Predmet> p= Collections.newSetFromMap(Collections.synchronizedMap(new LinkedHashMap<>()));
     public Resources() 
     {
         
     }
-//018500014
+
     public String Vrati_prosek_minimum(String ime, Predmet[] predmeti, boolean minimum)
     {
         int sum=0;
@@ -75,25 +74,8 @@ public class Resources {
     @GET
     public String prosek(@PathParam("predmet") String predmet) throws MalformedURLException, IOException
     {
-        //JSON.parse(s);
-        //File file=new File("D:\\Faculty of Electronic Engineering\\TZPU\\TZPU-main\\rest-json-quickstart\\src\\main\\java\\org\\acme\\rest\\json\\Podaci.json");
-        //try (OutputStream output = new FileOutputStream(file)) 
-        //{
-        //    //Resources.class.getResourceAsStream("D:\\Faculty of Electronic Engineering\\TZPU\\TZPU-main\\rest-json-quickstart\\src\\main\\java\\org\\acme\\rest\\json\\Podaci.json").transferTo(output);
-        //    //output.flush();
-        //    Predmet[] p=new ObjectMapper().readValue(file, Predmet[].class);
-        //
-        //    return Vrati_prosek_minimum(predmet, p, false);
-        //    
-        //} 
-        //catch (IOException ioException) 
-        //{
-        //    ioException.printStackTrace();
-        //}
-        //return "greska";
         try{
-         //String filePath = "D:\\Faculty of Electronic Engineering\\TZPU\\TZPU-main\\rest-json-quickstart\\src\\main\\java\\org\\acme\\rest\\json\\Podaci.json";
-         String filePath = "E:\\faksic\\TZPU\\OGPROJ\\TZPU-main\\rest-json-quickstart\\src\\main\\java\\org\\acme\\rest\\json\\Podaci.json";
+         String filePath = "D:\\Faculty of Electronic Engineering\\TZPU\\Projekat\\TZPU-main\\rest-json-quickstart\\src\\main\\java\\org\\acme\\rest\\json\\Podaci.json";
          Predmet[] predmeti = new ObjectMapper().readValue(new File(filePath), Predmet[].class);
          String rezultat = Vrati_prosek_minimum(predmet, predmeti, false);
          return rezultat;
@@ -107,22 +89,8 @@ public class Resources {
     @GET
     public String minimum(@PathParam("predmet") String predmet) throws MalformedURLException, IOException
     {
-        //File file=new File("Podaci.json");
-        //try (OutputStream output = new FileOutputStream(file)) 
-        //{
-        //    Resources.class.getResourceAsStream("Podaci.json").transferTo(output);
-        //    output.flush();
-        //    Predmet[] p=new ObjectMapper().readValue(file, Predmet[].class);
-        //    return Vrati_prosek_minimum(predmet, p, true);
-        //    
-        //} 
-        //catch (IOException ioException) 
-        //{
-        //    ioException.printStackTrace();
-        //}
-        //return "greska";
         try{
-         String filePath = "E:\\faksic\\TZPU\\OGPROJ\\TZPU-main\\rest-json-quickstart\\src\\main\\java\\org\\acme\\rest\\json\\Podaci.json";
+         String filePath = "D:\\Faculty of Electronic Engineering\\TZPU\\Projekat\\TZPU-main\\rest-json-quickstart\\src\\main\\java\\org\\acme\\rest\\json\\Podaci.json";
          Predmet[] predmeti = new ObjectMapper().readValue(new File(filePath), Predmet[].class);
          String rezultat = Vrati_prosek_minimum(predmet, predmeti, false);
          return rezultat;

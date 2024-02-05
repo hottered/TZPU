@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\faksic\\TZPU\\OGPROJ\\TZPU-main\\Notification\\Notification.csproj": {}
+    "D:\\Faculty of Electronic Engineering\\TZPU\\Projekat\\TZPU-main\\Notification\\Notification.csproj": {}
   },
   "projects": {
-    "E:\\faksic\\TZPU\\OGPROJ\\TZPU-main\\Notification\\Notification.csproj": {
+    "D:\\Faculty of Electronic Engineering\\TZPU\\Projekat\\TZPU-main\\Notification\\Notification.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\faksic\\TZPU\\OGPROJ\\TZPU-main\\Notification\\Notification.csproj",
+        "projectUniqueName": "D:\\Faculty of Electronic Engineering\\TZPU\\Projekat\\TZPU-main\\Notification\\Notification.csproj",
         "projectName": "Notification",
-        "projectPath": "E:\\faksic\\TZPU\\OGPROJ\\TZPU-main\\Notification\\Notification.csproj",
-        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
-        "outputPath": "E:\\faksic\\TZPU\\OGPROJ\\TZPU-main\\Notification\\obj\\",
+        "projectPath": "D:\\Faculty of Electronic Engineering\\TZPU\\Projekat\\TZPU-main\\Notification\\Notification.csproj",
+        "packagesPath": "C:\\Users\\Bogdan\\.nuget\\packages\\",
+        "outputPath": "D:\\Faculty of Electronic Engineering\\TZPU\\Projekat\\TZPU-main\\Notification\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bogdan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,7 +63,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

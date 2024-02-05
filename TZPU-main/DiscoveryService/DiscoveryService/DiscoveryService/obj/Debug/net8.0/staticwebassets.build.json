@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jxnC0OHAJv60moTnuFt3vhV0I0IffJHFcI6ZiQyhGgU=",
+  "Source": "DiscoveryService",
+  "BasePath": "_content/DiscoveryService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

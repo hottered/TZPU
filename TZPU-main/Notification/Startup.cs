@@ -29,9 +29,11 @@ namespace Notification
         {
             services.AddCors(options =>
             {
-                options.AddPolicy("CorsPolicy", builder => builder.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader().AllowCredentials());
+                options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
             services.AddSignalR();
+            services.AddHttpClient();
+            //services.AddSingleton<RegisterService>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -42,12 +44,12 @@ namespace Notification
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
+            //if (env.IsDevelopment())
+            //{
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Notification v1"));
-            }
+            //}
 
             app.UseHttpsRedirection();
 

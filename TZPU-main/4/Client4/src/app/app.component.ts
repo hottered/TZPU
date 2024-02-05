@@ -29,22 +29,38 @@ export class AppComponent {
     null,
   ];
   casovi: SchElement[] = [
-    {
-      name: 'TZPU',
-      t1: '7:15',
-      t2: '8:00',
-      trajanje: 45,
-      odmor: '8:00-8:15',
-      classrooms: ['Ucionica1', 'Ucionica2'],
-    },
-    {
-      name: 'TZPU',
-      t1: '7:15',
-      t2: '8:00',
-      trajanje: 45,
-      odmor: null,
-      classrooms: ['Ucionica1', 'Ucionica2'],
-    },
+    //{
+    //  name: 'TZPU',
+    //  t1: '7:15',
+    //  t2: '8:00',
+    //  trajanje: 45,
+    //  odmor: '8:00-8:15',
+    //  classrooms: ['Ucionica1', 'Ucionica2'],
+    //},
+    //{
+    //  name: 'PP',
+    //  t1: '8:15', // Promeni vreme po želji
+    //  t2: '9:00', // Promeni vreme po želji
+    //  trajanje: 45, // Promeni trajanje po želji
+    //  odmor: '9:00-9:15', // Promeni odmor po želji
+    //  classrooms: ['NovaUcionica1', 'NovaUcionica2'], // Promeni učionice po želji
+    //},
+    //{
+    //  name: 'RG',
+    //  t1: '9:15', // Promeni vreme po želji
+    //  t2: '10:00', // Promeni vreme po želji
+    //  trajanje: 45, // Promeni trajanje po želji
+    //  odmor: '10:00-10:15', // Promeni odmor po želji
+    //  classrooms: ['NovaUcionica3', 'NovaUcionica4'], // Promeni učionice po želji
+    //},
+    //{
+    //  name: 'WEB',
+    //  t1: '10:15', // Promeni vreme po želji
+    //  t2: '11:00', // Promeni vreme po želji
+    //  trajanje: 45, // Promeni trajanje po želji
+    //  odmor: '11:00-11:15', // Promeni odmor po želji
+    //  classrooms: ['NovaUcionica5', 'NovaUcionica6'], // Promeni učionice po želji
+    //},
   ];
   constructor(
     private socket: Socket,
@@ -54,13 +70,13 @@ export class AppComponent {
 
   ngOnInit() {
     // this.socket.emit('connection', "");
-    this.ReDrawSchedule();
     interval(2000).subscribe(() => {
       var today = new Date();
       this.nowTime = today.getHours() + ':' + today.getMinutes();
     });
     this.startHttpRequest();
-    this.socket.on("test", this.testf)
+    this.socket.on("test", this.testf.bind(this));
+    this.ReDrawSchedule();
   }
   ngOnDestroy() {
     this.socket.emit('disconnect', '');
@@ -68,10 +84,11 @@ export class AppComponent {
 
   testf(casovi: any)
   {
-    console.log(casovi);
     this.casovi = casovi;
     this.casovi.slice(0,this.casovi.length);
+    console.log("Ja sam u casovi sad"+casovi);
     console.log(casovi);
+    //this.ReDrawSchedule();
   }
 
   login(event: Event) {
@@ -132,7 +149,7 @@ export class AppComponent {
       //call http
       this.socket.emit('selectDay', day);
       document.querySelector('.loading')?.classList.remove('hide');
-      this.allowClick = false;
+      //this.allowClick = false;
     }
   }
 
